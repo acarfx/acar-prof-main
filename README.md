@@ -5,6 +5,7 @@ Gelişmiş cezalandırma sistemi ve ceza bilgi sistemi ayrıca gelişmiş kayıt
 Taglı üye, kayıt, ses ve mesaj aktifliğine göre otomatik yetki atlama ve coin kazanma sistemi içine dahildir dilediğiniz zaman kapatıp açabilirsiniz.
 Kayıt olan kişi taglı alım modunda iken cezalıda da olsa yasaklı tagda da olsa üstünde tagı yoksa kayıt işlemi hiç bir şekilde alınamaz ve otomatik kayıt etmez.
 Taglı alım modu kapalıysa üyenin cinsiyet verisi varsa otomatik kayıt işlemini alır ve kaydını tamamlar.
+Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Reference/acarDatabase.js içindeki fonksiyonları değiştirmeden içindeki kodlamayı değiştirip sistemi kendi dilediğiniz gibi kodlayabileceksiniz.
 
 ![image](https://user-images.githubusercontent.com/77089894/112474806-21111f80-8d81-11eb-959f-aeb3a317424f.png)
 ![image](https://user-images.githubusercontent.com/77089894/112474886-37b77680-8d81-11eb-994b-fddf043ce18e.png)
