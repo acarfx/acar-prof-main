@@ -8,3 +8,5 @@ Taglı alım modu kapalıysa üyenin cinsiyet verisi varsa otomatik kayıt işle
 
 ![image](https://user-images.githubusercontent.com/77089894/112474806-21111f80-8d81-11eb-959f-aeb3a317424f.png)
 ![image](https://user-images.githubusercontent.com/77089894/112474886-37b77680-8d81-11eb-994b-fddf043ce18e.png)
+![image](https://user-images.githubusercontent.com/77089894/112476451-f6c06180-8d82-11eb-927e-6e68487ea744.png)
+![image](https://user-images.githubusercontent.com/77089894/112476266-c5479600-8d82-11eb-84c3-5fef61ee3a02.png)
