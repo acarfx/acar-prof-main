@@ -9,6 +9,38 @@ Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Refer
 
 NOT: Invite sistemini eklemedim çünkü J4J yaptıkları zaman puanın içinden geçebilirler günde 1k kasıp onun için ek dosya koycam kullanmak isteyen kullanabilsin diye! 
 
+### Nereleri düzenlemeliyim?
+./acar/Settings/ klasöründe bulunan bütün dosyaları ince detayına kadar düzenlemelisiniz aksi taktirde ufak tefek sorunlarla karşılaşabilirsiniz.
+
+### Knaves ve Monarch sunucusundaki gibi altyetkileri de verdirmek istiyorum?
+./acar/Reference/acarDatabase.js dosyasında 324. Satırda Monarch ve Knaves tipi yetkiye göre Hammer vermesini ayarlayabilirsiniz!
+### Örneğin!
+7 Yetkimiz olsun ve o yetkilerde hammerlarıda eklesin ilkte zaten ability ile başlatıyorsunuz onu geçelim
+
+./acar/Settings/terfisystem.js klasöründe;
+```javascript
+    yetkipuan: [
+        { rol: "ilk yetki id", seviye: "0"},
+        { rol: "ikinci yetki id", seviye: "1"},
+        { rol: "üçüncü yetki id", seviye: "2"},
+        { rol: "dördüncü yetki id", seviye: "3"},
+        { rol: "beşinci yetki id", seviye: "4"},
+        { rol: "altıncı yetki id", seviye: "5"},
+        { rol: "yedinci yetki id", seviye: "6"},
+    ]
+ ```
+bu şekilde ayarımız mevcut ve 2 seviye de teleport gelmesini siteyeceğiz yani 3. rütbede
+```javascript
+if(getir.seviye == 2) { 
+  if(!uye.roles.cache.has(roller.teleportHammer)) uye.roles.add(roller.teleportHammer) 
+}; 
+```
+#### Kesinlikle 324 satır kısmına girilmelidir aksi taktirde sistemi bozabilirsiniz.
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/77089894/112477469-17d58200-8d84-11eb-82d3-6bf07b1cb747.png)
 ![image](https://user-images.githubusercontent.com/77089894/112474806-21111f80-8d81-11eb-959f-aeb3a317424f.png)
 ![image](https://user-images.githubusercontent.com/77089894/112474886-37b77680-8d81-11eb-994b-fddf043ce18e.png)
