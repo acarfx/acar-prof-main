@@ -7,6 +7,9 @@ Kayıt olan kişi taglı alım modunda iken cezalıda da olsa yasaklı tagda da 
 Taglı alım modu kapalıysa üyenin cinsiyet verisi varsa otomatik kayıt işlemini alır ve kaydını tamamlar.
 Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Reference/acarDatabase.js içindeki fonksiyonları değiştirmeden içindeki kodlamayı değiştirip sistemi kendi dilediğiniz gibi kodlayabileceksiniz.
 
+NOT: Invite sistemini eklemedim çünkü J4J yaptıkları zaman puanın içinden geçebilirler günde 1k kasıp onun için ek dosya koycam kullanmak isteyen kullanabilsin diye! 
+
+
 ![image](https://user-images.githubusercontent.com/77089894/112474806-21111f80-8d81-11eb-959f-aeb3a317424f.png)
 ![image](https://user-images.githubusercontent.com/77089894/112474886-37b77680-8d81-11eb-994b-fddf043ce18e.png)
 ![image](https://user-images.githubusercontent.com/77089894/112476578-18b9e400-8d83-11eb-8f85-d3b5dfae433a.png)
