@@ -1,0 +1,30 @@
+{
+    "sunucuID" : "817278063535587348",
+    "sunucuIsmi": "Monarch",
+    "sunucuCapsIsmi": "M O N A R C H",
+    "tag": "✦",
+    "tagsiz": "✧",
+    "yasakTaglar": ["yasaklıtaggirinbunu"],
+    "link": "https://discord.gg/monarch",
+    "minYaş": "13",
+    "taglıalım": false,
+
+    "kufurEngel": true,
+    "reklamEngel": true,
+    
+    "acarkre": {
+        "konsolBilgi": false,
+        "uyariMesaji": false,
+        "izinliKanallar": [],
+        "kufurUyariMesaji": "Birdaha küfür etmemelisin aksi taktirde ceza alacaksın.", 
+        "reklamUyariMesaji": "Birdaha reklam yapmamalısın aksi taktirde ceza alacaksın."
+    },
+
+    "embed": {
+        "iconURL": "https://images-ext-1.discordapp.net/external/R97va3d_3HzQqlClk7ZJPTEdrCqg6-ZAWOsGdei7ngI/https/cdn.discordapp.com/icons/817278063535587348/a_c77a8fb012718cd81a489f086564534a.gif",
+        "başlık": "M O N A R C H ✦",
+        "altbaşlık": "✦ Monarch Developed by ACAR",
+        "renk": "#76d697"
+    }
+
+}

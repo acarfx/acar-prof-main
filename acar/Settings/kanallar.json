@@ -1,0 +1,33 @@
+{
+    "loglar": [
+        "guard-log",
+        "isim-log",
+        "kayıt-log",
+        "kayıtsız-log",
+        "tag-log",
+        "taglı-log",
+        "terfi-log",
+        "yetki-log",
+        "rol-log",
+        "mesaj-log",
+        "ses-log",
+        "ban-log",
+        "jail-log", 
+        "şüpheli-log",
+        "yasaklı-tag-log", 
+        "mute-log",
+        "sesmute-log", 
+        "uyarı-log",
+        "yetenek-log",
+        "satın-alma-log"
+    ],
+    "izinliKanallar": ["bot komutu kullanılcak kanallar"],
+    "hoşgeldinKanalı": "",
+    "kurallarKanalı": "",
+    "teyitKanalı": "",
+    "photoChatKanalı": "",
+    "chatKanalı": "",
+    "sesLogKanali":"",
+    "kayitSonrasiKanal": "",
+    "spotifyKanalı": ""
+}

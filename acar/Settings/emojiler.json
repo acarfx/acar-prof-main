@@ -1,0 +1,42 @@
+{
+    "acar": "",
+    "Onay" : "",
+    "Iptal" : "",
+    "HoşGif": "",
+    "Tag": "",
+    "Yasaklandı": "",
+    "Susturuldu": "",
+    "Cezalandırıldı": "",
+    "SusturulmaKaldirildi": "",
+    "HosgeldinGif1": "",
+    "HosgeldinGif2": "",
+    "HosgeldinGif3": "",
+    "HosgeldinGif4": "",
+
+    "Sayı": {
+        "sıfır": "<a:0a:>",
+        "bir": "<a:1a:>",
+        "iki": "<a:2a:>",
+        "üç": "<a:3a:>",
+        "dört": "<a:4a:>",
+        "beş": "<a:5a:>",
+        "altı": "<a:6a:>",
+        "yedi": "<a:7a:>",
+        "sekiz": "<a:8a:>",
+        "dokuz": "<a:9a:>"
+    },
+
+    "Terfi": {
+        "başlangıçBar": "",
+        "başlamaBar": "",
+        "doluBar": "",
+        "doluBitişBar": "",
+        "boşBar": "",
+        "boşBitişBar": "",
+        "icon": "",
+        "miniicon": ""
+    },
+    "Coin": {
+        "satınAl": ""
+    }
+}

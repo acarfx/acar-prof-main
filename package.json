@@ -1,0 +1,49 @@
+{
+  "name": "acar-prof-mod",
+  "version": "3.6.1-0.4",
+  "description": "Otomatik terfi sistemi içinde bulunan ayrıca coin sistemi içinde bulunan discord botu en yakın zamanda buraya yükleyeceğim. Gelişmiş cezalandırma sistemi ve ceza bilgi sistemi ayrıca gelişmiş kayıt sistemi ve düzenli bir altyapı bütün hepsi içindedir. Taglı üye, kayıt, ses ve mesaj aktifliğine göre otomatik yetki atlama ve coin kazanma sistemi içine dahildir dilediğiniz zaman kapatıp açabilirsiniz. Kayıt olan kişi taglı alım modunda iken cezalıda da olsa yasaklı tagda da olsa üstünde tagı yoksa kayıt işlemi hiç bir şekilde alınamaz ve otomatik kayıt etmez. Taglı alım modu kapalıysa üyenin cinsiyet verisi varsa otomatik kayıt işlemini alır ve kaydını tamamlar. Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Reference/acarDatabase.js içindeki fonksiyonları değiştirmeden içindeki kodlamayı değiştirip sistemi kendi dilediğiniz gibi kodlayabileceksiniz.",
+  "main": "acar.js",
+  "dependencies": {
+    "acarkre": "^3.6.1-0.4",
+    "better-sqlite3": "^7.1.2",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.33",
+    "ms": "^2.1.3",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3",
+    "table": "^6.0.7",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "acarfx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acarfx/acar-prof-main.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "Discord",
+    "Bot",
+    "terfi",
+    "sistemi",
+    "coin",
+    "sistemi",
+    "upstaff",
+    "coin",
+    "system",
+    "coin"
+  ],
+  "bugs": {
+    "url": "https://github.com/acarfx/acar-prof-main/issues"
+  },
+  "homepage": "https://github.com/acarfx/acar-prof-main#readme"
+}

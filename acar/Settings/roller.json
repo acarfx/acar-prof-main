@@ -1,0 +1,62 @@
+{
+    "Teyit": {
+        "teyitciRolleri" : [""],
+        "teyitciRolEtiket" : "<@&>",
+        "kayıtsızRolleri": [""],
+        "kayıtsızRolü": "",
+        "erkekRolü": "",
+        "kadınRolü": "",
+        "erkekRolleri": [""],
+        "kadınRolleri": [""],
+        "tagRolü": ""
+    },
+
+    "acarRolü": "",
+    "kurucuRolleri": [""],
+    "yönetimRolleri": [""],
+    "altYönetimRolleri" : [""],
+    "roleManager": [""],
+    "banHammer": [""],
+    "jailHammer": [""],
+    "voiceMuteHammer": [""],
+    "muteHammer": [""],
+    "teleportHammer": [""],
+    "abilityHammer": [""],
+    "warnHammer": [""],
+    
+    "boosterRolü": "",
+    "vipRolü": "",
+    "muteRolü": "",
+    "voicemuteRolü": "",
+    "jailRolü": "",
+    "şüpheliRolü": "",
+    "yasaklıTagRolü": "",
+    "MinYetkili": "",
+     "banKoru": [
+        "",
+        ""
+    ],
+    
+    
+    "Yetkiler": [
+        "",
+        ""
+    ],
+    
+    "blokluRoller": [
+        "",
+        ""
+    ],
+
+    "Yetenek": {
+        "vokalRolü": "",
+        "telliRolü": "",
+        "müzisyenRolü": "",
+        "yazılımcıRolü": "",
+        "tasarımcıRolü": "",
+        "yayıncıRolü": "",
+        "ressamRolü": "",
+        "şairRolü": ""
+    }
+
+}
