@@ -1,4 +1,4 @@
-# ACAR Professional Moderation & Upstaf & Coin System Bot
+# ACAR Professional Moderation & Upstaff & Coin System Bot
 
 Otomatik terfi sistemi içinde bulunan ayrıca coin sistemi içinde bulunan discord botu en yakın zamanda buraya yükleyeceğim.
 Gelişmiş cezalandırma sistemi ve ceza bilgi sistemi ayrıca gelişmiş kayıt sistemi ve düzenli bir altyapı bütün hepsi içindedir.
