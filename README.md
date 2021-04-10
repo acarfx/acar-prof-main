@@ -9,8 +9,21 @@ Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Refer
 
 NOT: Invite sistemini eklemedim çünkü J4J yaptıkları zaman puanın içinden geçebilirler günde 1k kasıp onun için ek dosya koycam kullanmak isteyen kullanabilsin diye! 
 
+### Bu bot hangi sunucuda var?
+ilk önce Knaves'de bulundu ayh özledim amk sunucsunu qşlekqşwlke
+discord.gg/monarch
+discord.gg/feanor
+discord.gg/throne
+
+### Bunu öylesine paylaştım!
+Fakat en kısa zamnada mongolu ve mysqlli olanını paylaşacağım ayrıca otomatik kanalları kuran ve guard botuyla birlikte çalışan botla beraber koyacağayım 
+
 ### Nereleri düzenlemeliyim?
 ./acar/Settings/ klasöründe bulunan bütün dosyaları ince detayına kadar düzenlemelisiniz aksi taktirde ufak tefek sorunlarla karşılaşabilirsiniz.
+
+### kanallar.json
+Kanalların içinde bulunan kanal isimlerini tek tek log kanallarnıza açın yakın zamanda otomatik kuran sistemi de paylaşıcam
+
 
 ### Knaves ve Monarch sunucusundaki gibi altyetkileri de verdirmek istiyorum?
 ./acar/Reference/acarDatabase.js dosyasında 324. Satırda Monarch ve Knaves tipi yetkiye göre Hammer vermesini ayarlayabilirsiniz!
