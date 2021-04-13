@@ -26,7 +26,7 @@ module.exports = async (member) => {
   member.guild.kanalBul("şüpheli-log").wsend(embed.setDescription(`${member} isimli kişi sunucuya katıldı fakat hesabı ${global.tarihHesapla(member.user.createdAt)} açıldığı için şüpheli olarak işaretlendi.`));
   } else {
   
-    if(sonisim || cinsiyet) {
+    if(cinsiyet) {
         member.setNickname(`${member.user.username.includes(ayarlar.tag) ? ayarlar.tag : (ayarlar.tagsiz ? ayarlar.tagsiz : (ayarlar.tag || ""))} ${sonisim.Isim} | ${sonisim.Yas}`)
         if(!ayarlar.taglıalım || member.user.username.includes(ayarlar.tag)) {
           if(cinsiyet == "erkek") {
