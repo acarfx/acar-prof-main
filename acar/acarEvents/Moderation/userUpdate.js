@@ -28,7 +28,7 @@ module.exports = async (oldUser, newUser) => {
       };
 
     if ((!ayarlar.yasakTaglar.some(tag => newUser.username.includes(tag))) && (roller.yasaklıTagRolü && user.roles.cache.has(roller.yasaklıTagRolü)) && yasakTaglilar.some(x => x.includes(newUser.id))) {
-      let sonisim = acarDatabase.sonIsimÇek(member);
+      let sonisim = acarDatabase.sonIsimÇek(user);
       let cinsiyet = acarDatabase.cinsiyetGetir(user);
       if(!ayarlar.taglıalım || user.user.username.includes(ayarlar.tag)) {
         if(sonisim || cinsiyet) {
