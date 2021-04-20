@@ -147,6 +147,7 @@ const ms = require('ms');
             cdb.push('yasakTaglilar', `y${üyeid}`);
         }
         static yasakTagliKaldır(uye) {
+ 	    let yasakTaglilar = cdb.get('yasakTaglilar') || [];
             cdb.set('yasakTaglilar', yasakTaglilar.filter(x => !x.includes(uye.id)));
         }
         static yasakTagCheck(uye) {
