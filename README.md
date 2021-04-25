@@ -9,12 +9,6 @@ Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Refer
 
 NOT: Invite sistemini eklemedim çünkü J4J yaptıkları zaman puanın içinden geçebilirler günde 1k kasıp onun için ek dosya koycam kullanmak isteyen kullanabilsin diye! 
 
-### Bu bot hangi sunucuda var?
-ilk önce Knaves'de bulundu ayh özledim amk sunucsunu qşlekqşwlke
-discord.gg/monarch
-discord.gg/feanor
-discord.gg/throne
-
 ### Bunu öylesine paylaştım!
 Fakat en kısa zamnada mongolu ve mysqlli olanını paylaşacağım ayrıca otomatik kanalları kuran ve guard botuyla birlikte çalışan botla beraber koyacağayım 
 
