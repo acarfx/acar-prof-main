@@ -1,55 +1,86 @@
-# ACAR Professional Moderation & Upstaff & Coin System Bot
+# Acar-Prof-Main
 
-Otomatik terfi sistemi içinde bulunan ayrıca coin sistemi içinde bulunan discord botu en yakın zamanda buraya yükleyeceğim.
-Gelişmiş cezalandırma sistemi ve ceza bilgi sistemi ayrıca gelişmiş kayıt sistemi ve düzenli bir altyapı bütün hepsi içindedir.
-Taglı üye, kayıt, ses ve mesaj aktifliğine göre otomatik yetki atlama ve coin kazanma sistemi içine dahildir dilediğiniz zaman kapatıp açabilirsiniz.
-Kayıt olan kişi taglı alım modunda iken cezalıda da olsa yasaklı tagda da olsa üstünde tagı yoksa kayıt işlemi hiç bir şekilde alınamaz ve otomatik kayıt etmez.
-Taglı alım modu kapalıysa üyenin cinsiyet verisi varsa otomatik kayıt işlemini alır ve kaydını tamamlar.
-Ayrıca istediğiniz veritabanını hızlıca kodlayabileceksiniz sadece ./Reference/acarDatabase.js içindeki fonksiyonları değiştirmeden içindeki kodlamayı değiştirip sistemi kendi dilediğiniz gibi kodlayabileceksiniz.
+**ACAR Professional Moderation, Promotion & Coin System Bot**
 
-NOT: Invite sistemini eklemedim çünkü J4J yaptıkları zaman puanın içinden geçebilirler günde 1k kasıp onun için ek dosya koycam kullanmak isteyen kullanabilsin diye! 
+A Discord bot featuring an automated promotion system, coin economy, moderation tools, registration workflows, and a clean modular architecture. Customizable and extensible for your needs.
 
-### Bunu öylesine paylaştım!
-Fakat en kısa zamnada mongolu ve mysqlli olanını paylaşacağım ayrıca otomatik kanalları kuran ve guard botuyla birlikte çalışan botla beraber koyacağayım 
+---
 
-### Nereleri düzenlemeliyim?
-./acar/Settings/ klasöründe bulunan bütün dosyaları ince detayına kadar düzenlemelisiniz aksi taktirde ufak tefek sorunlarla karşılaşabilirsiniz.
+## 🚀 Features
 
-### kanallar.json
-Kanalların içinde bulunan kanal isimlerini tek tek log kanallarnıza açın yakın zamanda otomatik kuran sistemi de paylaşıcam
+* **Automated Promotions & Coin System**
+  Users can earn coins and be promoted automatically based on their tagged status, message activity, voice activity, and registration data. The system supports toggling these features ON/OFF.
 
+* **Advanced Moderation & Penalty Dashboard**
+  Includes enhanced logging, punishment tracking, and structured penalty handling mechanisms.
 
-### Knaves ve Monarch sunucusundaki gibi altyetkileri de verdirmek istiyorum?
-./acar/Reference/acarDatabase.js dosyasında 324. Satırda Monarch ve Knaves tipi yetkiye göre Hammer vermesini ayarlayabilirsiniz!
-### Örneğin!
-7 Yetkimiz olsun ve o yetkilerde hammerlarıda eklesin ilkte zaten ability ile başlatıyorsunuz onu geçelim
+* **Smart Registration System**
 
-./acar/Settings/terfisystem.js klasöründe;
-```javascript
-    yetkipuan: [
-        { rol: "ilk yetki id", seviye: "0"},
-        { rol: "ikinci yetki id", seviye: "1"},
-        { rol: "üçüncü yetki id", seviye: "2"},
-        { rol: "dördüncü yetki id", seviye: "3"},
-        { rol: "beşinci yetki id", seviye: "4"},
-        { rol: "altıncı yetki id", seviye: "5"},
-        { rol: "yedinci yetki id", seviye: "6"},
-    ]
- ```
-bu şekilde ayarımız mevcut ve 2 seviye de teleport gelmesini siteyeceğiz yani 3. rütbede
-```javascript
-if(getir.seviye == 2) { 
-  if(!uye.roles.cache.has(roller.teleportHammer)) uye.roles.add(roller.teleportHammer) 
-}; 
-```
-#### Kesinlikle 324 satır kısmına girilmelidir aksi taktirde sistemi bozabilirsiniz.
+  * **Tagged-only mode enabled:** If a user does not have the required tag, registration is blocked automatically.
+  * **Tagged-only mode disabled:** Registration is allowed if the user's gender data is provided.
 
+* **Plug-and-Play Database Adaptability**
+  You can switch out the database platform quickly. Edit only the internals of functions in `./Reference/acarDatabase.js`, without touching the system’s logic.
 
+* **Invite System Placeholder**
+  Invite-based rewards are not included due to potential exploitation (e.g., J4J abuse). A separate module may be implemented in the future.
 
+* **Guard Bot & Auto-channel Setup (Upcoming)**
+  Future updates will include deployment with a guard bot, automatic channel creation, and MongoDB/MySQL integration.
 
+---
 
-![image](https://user-images.githubusercontent.com/77089894/112477469-17d58200-8d84-11eb-82d3-6bf07b1cb747.png)
-![image](https://user-images.githubusercontent.com/77089894/112474806-21111f80-8d81-11eb-959f-aeb3a317424f.png)
-![image](https://user-images.githubusercontent.com/77089894/112474886-37b77680-8d81-11eb-994b-fddf043ce18e.png)
-![image](https://user-images.githubusercontent.com/77089894/112476578-18b9e400-8d83-11eb-8f85-d3b5dfae433a.png)
-![image](https://user-images.githubusercontent.com/77089894/112476266-c5479600-8d82-11eb-84c3-5fef61ee3a02.png)
+## ⚙️ Setup & Configuration
+
+1. **Explore Settings**
+   Review all files in `./acar/Settings/`. Misconfigurations (like missing role IDs or incorrect channel names) can break the system.
+
+2. **Channel Configuration (`kanallar.json`)**
+   Channel names inside `kanallar.json` must match your server’s log channel names. (Automatic setup coming soon.)
+
+3. **Role & Promotion Logic**
+   In `./acar/Reference/acarDatabase.js`, you can customize behavior for “Monarch” and “Knaves” role types—specifically around handling “Hammer” role grants.
+
+4. **Promotion Levels (`terfisystem.js`)**
+   Define rank levels using:
+
+   ```js
+   yetkipuan: [
+     { rol: "first_role_id", seviye: "0" },
+     { rol: "second_role_id", seviye: "1" },
+     ...
+     { rol: "seventh_role_id", seviye: "6" },
+   ]
+   ```
+
+   Example toggle: if `getir.seviye === 2` (third rank), give the user a `teleportHammer` role if they don’t already have it.
+
+---
+
+## 🛠 Roadmap
+
+* MongoDB/MySQL support
+* Guard bot integration
+* Auto-channel creation
+* Separate invite system module
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📑 Summary
+
+| Component                 | Description                                                                           |
+| ------------------------- | ------------------------------------------------------------------------------------- |
+| **Promotion + Coin**      | Automatic promotions and coin rewards based on tag, messages, voice, and registration |
+| **Moderation**            | Advanced punishment and moderation system                                             |
+| **Registration**          | Tag-based gating or gender-verified automatic registration                            |
+| **Database**              | Adaptable `acarDatabase.js` for your DB of choice                                     |
+| **Invite System**         | Not included by default (planned separately)                                          |
+| **Guard & Auto-channels** | Upcoming features (MongoDB/MySQL, auto-channel, guard bot)                            |
+| **Setup**                 | Customize `Settings/`, `kanallar.json`, DB handler, and `terfisystem.js` logic        |
+| **License**               | MIT                                                                                   |
